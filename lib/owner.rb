@@ -65,12 +65,12 @@ class Owner
     self.cats.clear
     Dog.all.each do |dog|
       if dog.owner == self
-        dog.owner == nil
+        dog.owner = nil
       end
     end
     Cat.all.each do |cat|
-      if cat.owner == self 
-        cat.owner == nil
+      if cat.owner == self
+        cat.owner = nil
       end
     end
   end
