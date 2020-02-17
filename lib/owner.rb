@@ -60,8 +60,8 @@ class Owner
     end
 
     self.cats.each do |cat|
-        cat.mood = "nervous"
-      end
+      cat.mood = "nervous"
+    end
   end
   # code goes here
 end
