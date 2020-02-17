@@ -58,10 +58,11 @@ class Owner
     self.dogs.each do |dog|
       dog.mood = "nervous"
     end
-
     self.cats.each do |cat|
       cat.mood = "nervous"
     end
+
+
   end
   # code goes here
 end
